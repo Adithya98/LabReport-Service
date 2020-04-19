@@ -104,9 +104,9 @@ public class LabReport {
 			// execute the statement
 			preparedStmt.execute();
 			con.close();
-			output = "Updated successfullly";
+			output = "Updated Lab Report successfullly";
 		} catch (Exception e) {
-			output = "Error while updating the item.";
+			output = "Error while updating the Lab Report.";
 			System.err.println(e.getMessage());
 		}
 		return output;
