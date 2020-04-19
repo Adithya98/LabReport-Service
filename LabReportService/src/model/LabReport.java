@@ -41,7 +41,7 @@ public class LabReport {
 			// execute the statement
 			preparedStmt.execute();
 			con.close();
-			output = "Inserted successfully";
+			output = "Lab Report Inserted successfully";
 		} catch (Exception e) {
 			output = "Error while inserting the labreport.";
 			System.err.println(e.getMessage());
