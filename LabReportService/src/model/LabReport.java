@@ -127,9 +127,9 @@ public class LabReport {
 			// execute the statement
 			preparedStmt.execute();
 			con.close();
-			output = "Deleted successfully";
+			output = "Deleted Lab Report successfully";
 		} catch (Exception e) {
-			output = "Error while deleting the item.";
+			output = "Error while deleting the Lab Report.";
 			System.err.println(e.getMessage());
 		}
 		return output;
